@@ -1,0 +1,28 @@
+#ball-container{
+    position: relative;
+    border: solid thin black;
+    height: 250px;
+    margin-top: 25px;
+ }
+ 
+ #ball{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:0;
+    left:1px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: red;
+ }
+ #controls{
+    padding-top: 25px;
+    text-align: center;
+ }
+ .control-btn{
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px;
+    height: 25px;
+ }
+ 
